@@ -1,0 +1,12 @@
+.container{
+    min-height: 100vh;
+    padding: 6rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 50%;
+}
+
+.container p{
+    font-size: 0.8rem;
+}

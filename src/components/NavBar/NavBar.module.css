@@ -1,0 +1,22 @@
+.nav_container{
+    background-color: var(--grey);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 9vh;
+    position: fixed;
+    z-index: 2;
+    width:100%;
+}
+
+.nav_container ul{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    gap: 0 10px;
+    list-style: none;
+}
+
+.nav_container ul li{
+    color: var(--orange);
+    text-decoration: none;
+}
